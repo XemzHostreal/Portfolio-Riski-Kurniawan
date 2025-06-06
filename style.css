@@ -7,7 +7,7 @@
 }
 
 body {
-    color: #ededed;
+    color: #edede
     background: #081b29;
 }
 
@@ -15,32 +15,30 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 
     padding: 20px 10%;
     background: #081b29;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-}
+
 
 .logo {
     position: relative;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    cursor: default;
-    opacity: 0;
+    font-size 25px;    text-decoration: none;
+    font-eight: 600;
+    cursor:efault;
+ 0;
     animation: slideRight 1s ease forwards;
 }
 
 .navbar a {
-    display: inline-block;
+    disy: inline-block;
     font-size: 25px;
     color: #fff;
     text-decoration: none;
-    font-weight: 500;
+    -weight: 500;
     margin-left: 35px;
     transition:  0.3s;
     opacity: 0;
@@ -52,16 +50,15 @@ header {
     color: #0ef;
 }
 
-.home {
+.
     position: relative;
     margin-top: 16px;
     width: 100%;
     background: url('wallpaper.jpg') no-repeat center center;
-    height: 100vh;
-    background-size: cover;
-    display: flex;
+    heig 100vh;
+    b: flex;
     justify-content: left; /* Agar konten berada di sebelah kiri */
-    align-items: center; /* Agar konten berada di tengah secara vertikal */
+    alignems: center; /* Agar konten berada di tengah secara vertikal */
     padding: 70px 10% 0; /* Padding horizontal untuk memberi ruang di sisi kiri dan kanan */
 }
 
